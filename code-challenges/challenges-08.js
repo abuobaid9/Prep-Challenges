@@ -28,19 +28,17 @@
 
 const customerAndAge = (obj) => {
   // write your code here
-  let text = obj.split(",");
-  
-for (let x in customerAndAge) {
-  // text +=  ' "Customer Name :' + customerAndAge[x]+ " , "+ 'Age :'+ customerAndAge[x] +'"';
-  if(customerAndAge(obj)[x] === "string"){
-    text =["Customer Name :" + (customerAndAge(obj)[0])+","];
-    }
-  else if (customerAndAge(obj)[x] === "number") {
-    textArr = ["Age :"+ customerAndAge(obj)[x] +","];
-  }
-  
+  let text="";
+  let array=[];
+for (let keys in obj) 
+{
+ text+=["Customer Name : " +keys+ ", Age : "+obj[keys]+",,"];
 }
+array=text.split(",,");
+
 };
+
+
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
