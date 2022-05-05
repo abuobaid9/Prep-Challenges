@@ -29,13 +29,15 @@
 const customerAndAge = (obj) => {
   // write your code here
   let text="";
-  let array=[];
-for (let keys in obj) 
-{
- text+=["Customer Name : " +keys+ ", Age : "+obj[keys]+",,"];
-}
-array=text.split(",,");
+  let arr=[];
+  for (const key in obj) 
+  {
+   text+=`Customer Name :${key} , Age :${obj[key]};`;
+  }
+  arr=text.split(";");
+  arr.pop();
 
+  return arr;
 };
 
 
