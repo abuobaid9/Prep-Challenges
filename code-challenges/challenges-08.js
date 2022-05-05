@@ -36,7 +36,7 @@ const customerAndAge = (obj) => {
   }
   arr=text.split(";");
   arr.pop();
-  
+
   return arr;
 };
 
