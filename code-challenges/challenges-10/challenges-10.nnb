@@ -17,28 +17,7 @@
         {
             "language": "markdown",
             "source": [
-                "#####  [Equality In An Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true)\n\nSolution:"
-            ],
-            "outputs": []
-        },
-        {
-            "language": "javascript",
-            "source": [
-                "function equalizeArray(arr) {    \n    // Write your code here    \n    let j=arr.length;   let del = new Map();\n       for(let i = 0; i < j; i++){\n             if(del.has(arr[i])){\n                 del.set(arr[i], del.get(arr[i]) + 1)\n           }else{\n                 del.set(arr[i], 1)\n           }\n     }\n    \n       let max = Number.MIN_SAFE_INTEGER;\n       for(let entry of del)\n           max = Math.max(max, entry[1]);\n     \n       return j - max ;\n       }"
-            ],
-            "outputs": []
-        },
-        {
-            "language": "markdown",
-            "source": [
-                "### **Optional**:"
-            ],
-            "outputs": []
-        },
-        {
-            "language": "markdown",
-            "source": [
-                "#####  [Halloween Sale](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true)\n\nSolution:"
+                "#####  [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)\n\nSolution:"
             ],
             "outputs": []
         },
@@ -52,7 +31,28 @@
         {
             "language": "markdown",
             "source": [
-                "#####  [Sherlock And Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true)\n\nSolution:"
+                "### **Optional**:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "#####  [Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true)\n\nSolution:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "#####  [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true)\n\nSolution:"
             ],
             "outputs": []
         },
